@@ -1,7 +1,4 @@
-.provider, .contact {
-    background-color: #161D30;
-    color: #fff;
-}
+
 
 .fa-phone, .fa-envelope {
     color: #FFAA04;
@@ -12,22 +9,10 @@ a {
     color: #fff;
 }
 
-.bars, .search {
-    color: #fff;
+header {
+    background-color: #161D30;
 }
- @media (min-width:768px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        background-color: #161D30;
-    }
-
-    .provider {
-        padding-left: 44px;
-    }
-
-    .contact {
-        padding-right: 35px;
-    }
-    
+header a, header p {
+    text-align: center;
 }
+
